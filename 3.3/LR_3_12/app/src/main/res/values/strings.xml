@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GenMVVMTemplate</string>
+
+    <string name="enter_property">Enter property</string>
+    <string name="submit">submit</string>
+</resources>
