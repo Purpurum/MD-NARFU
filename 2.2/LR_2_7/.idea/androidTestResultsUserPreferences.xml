@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidTestResultsUserPreferences">
+    <option name="androidTestResultsTableState">
+      <map>
+        <entry key="-1610908079">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="Duration" value="90" />
+                  <entry key="Tests" value="360" />
+                  <entry key="adb-R3CRA0F2A0N-drwnM5._adb-tls-connect._tcp." value="120" />
+                  <entry key="samsung&#10; SM-N986B" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="1092039428">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="782fb884" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Pixel_API_31" value="120" />
+                  <entry key="R38NB00Z35Y" value="120" />
+                  <entry key="R3CRA0F29XH" value="120" />
+                  <entry key="R3CRC0ABMHE" value="120" />
+                  <entry key="Tests" value="360" />
+                  <entry key="adb-R3CRA0F29XH-FYICW0._adb-tls-connect._tcp." value="120" />
+                  <entry key="adb-R3CRA0F2A0N-drwnM5._adb-tls-connect._tcp." value="120" />
+                  <entry key="adb-RFCRC0HB9BL-WchrCw._adb-tls-connect._tcp." value="120" />
+                  <entry key="samsung" value="120" />
+                  <entry key="samsung&#10; SM-A336B" value="120" />
+                  <entry key="samsung&#10; SM-A525F" value="120" />
+                  <entry key="samsung&#10; SM-J510FN" value="120" />
+                  <entry key="samsung&#10; SM-N986B" value="120" />
+                  <entry key="samsung&#10; SM-S906B" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
