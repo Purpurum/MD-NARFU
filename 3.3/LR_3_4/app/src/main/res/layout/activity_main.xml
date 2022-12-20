@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="273dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openBrowser"
+            android:text="Открыть браузер" />
+
+        <RadioButton
+            android:id="@+id/maps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openMaps"
+            android:text="Открыть онлайн-карты" />
+
+        <RadioButton
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openPhone"
+            android:text='Открыть "телефон"' />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Text"
+        android:layout_width="240dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="56dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/Call"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="inputText"
+        android:text="Вызвать"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Text"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

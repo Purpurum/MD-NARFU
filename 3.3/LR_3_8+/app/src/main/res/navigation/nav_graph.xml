@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment">
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="ru.samsung.itschool.myapplication.BlankFragment"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment1" >
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="ru.samsung.itschool.myapplication.BlankFragment2"
+        android:label="fragment2"
+        tools:layout="@layout/fragment2" >
+        <action
+            android:id="@+id/action_blankFragment2_to_main2Activity"
+            app:destination="@id/main2Activity" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="ru.samsung.itschool.myapplication.BlankFragment3"
+        android:label="fragment3"
+        tools:layout="@layout/fragment3" >
+        <action
+            android:id="@+id/action_blankFragment3_to_blankFragment6"
+            app:destination="@id/blankFragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="ru.samsung.itschool.myapplication.BlankFragment4"
+        android:label="fragment4"
+        tools:layout="@layout/fragment4">
+        <action
+            android:id="@+id/action_blankFragment4_to_main2Activity"
+            app:destination="@id/main2Activity" />
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment32"
+            app:destination="@id/blankFragment3" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="app://3.8_practical/frag4" />
+        <deepLink
+            android:id="@+id/deepLink4"
+            app:uri="https://myitacademy.ru/edu/login/index.php#reg" />
+    </fragment>
+    <activity
+        android:id="@+id/main2Activity"
+        android:name="ru.samsung.itschool.myapplication.Main2Activity"
+        android:label="app_bar_main2"
+        tools:layout="@layout/app_bar_main2" />
+    <fragment
+        android:id="@+id/blankFragment6"
+        android:name="ru.samsung.itschool.myapplication.BlankFragment6"
+        android:label="fragment_blank6"
+        tools:layout="@layout/fragment_blank6" />
+</navigation>

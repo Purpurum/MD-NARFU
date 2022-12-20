@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PR_3.11</string>
+    <string name="tab_text_1">чаты</string>
+    <string name="tab_text_2">сообщения</string>
+    <string name="tab_text_3">контакты</string>
+    <string name="tab_text_4">галерея</string>
+    <string name="tab_text_5">помощь</string>
+</resources>

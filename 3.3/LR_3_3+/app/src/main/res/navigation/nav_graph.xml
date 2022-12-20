@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/GeneratedListFragment">
+
+    <fragment
+        android:id="@+id/GeneratedListFragment"
+        android:name="ru.myitschool.lab23.ui.main.GeneratedListFragment"
+        android:label="@string/generated_list_fragment_label"
+        tools:layout="@layout/fragment_generated_list">
+
+        <action
+            android:id="@+id/action_GeneratedListFragment_to_itself"
+            app:destination="@id/GeneratedListFragment" />
+    </fragment>
+
+</navigation>

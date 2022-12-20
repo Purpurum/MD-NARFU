@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Lab" parent="Theme.Material3.DayNight">
+        <!-- Primary color -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <!--<item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>-->
+        <!-- Floating Action Button Container -->
+        <item name="colorPrimaryContainer">@color/blue_500</item>
+        <!--ActionBar -->
+        <item name="colorSurface">@color/blue_700</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <item name="android:navigationBarColor">@color/blue_200</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+</resources>

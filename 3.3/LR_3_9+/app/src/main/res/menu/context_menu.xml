@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.samsung.itschool.a3_9_practical_work.MainActivity">
+    <item
+        android:id="@+id/gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/gallery"
+        android:contentDescription="@string/content_description_gallery"
+        app:showAsAction="ifRoom" />
+    ​
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        android:contentDescription="@string/content_description_search"
+        app:showAsAction="ifRoom" />
+    ​
+    <item
+        android:id="@+id/more"
+        android:title="@string/more"
+        android:contentDescription="@string/content_description_more"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

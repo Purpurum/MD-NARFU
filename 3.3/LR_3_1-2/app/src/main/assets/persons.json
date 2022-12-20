@@ -1,0 +1,47 @@
+{"persons":[
+  {
+    "sex": "male",
+    "name": "Дмитрий",
+    "phoneNumber": "+79998884455"
+  },
+  {
+    "sex": "female",
+    "name": "Дмитрия",
+    "phoneNumber": "+78887884545"
+  },
+  {
+    "sex": "female",
+    "name": "Дмитрий",
+    "phoneNumber": "+79998884455"
+  },
+  {
+    "sex": "unknown",
+    "name": "Небинарник Небинарникович",
+    "phoneNumber": "+78888888888"
+  },
+  {
+    "sex": "male",
+    "name": "Александр",
+    "phoneNumber": "88005553535"
+  },
+  {
+    "sex": "male",
+    "name": "Гошексиандр",
+    "phoneNumber": "+74549844235"
+  },
+  {
+    "sex": "female",
+    "name": "Анастасия",
+    "phoneNumber": "+79994566789"
+  },
+  {
+    "sex": "female",
+    "name": "Ева",
+    "phoneNumber": "+71112223344"
+  },
+  {
+    "sex": "female",
+    "name": "Жижа",
+    "phoneNumber": "89498484445"
+  }
+]}
