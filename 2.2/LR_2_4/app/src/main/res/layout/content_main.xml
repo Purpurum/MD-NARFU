@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="211dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Inches"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Inches"
+                    android:textAlignment="textEnd"
+                    tools:text="@string/Inches" />
+
+                <TextView
+                    android:id="@+id/Yards"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Yards"
+                    android:textAlignment="textEnd"
+                    tools:text="@string/Yards" />
+
+                <TextView
+                    android:id="@+id/Feet"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Feet"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Miles"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Yottametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Yottametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Zettametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Zettametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Exametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Exametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Petametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Petametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Terametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Terametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Gigametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Gigametres"
+                    android:textAlignment="textEnd"
+                    tools:text="@string/Gigametres" />
+
+                <TextView
+                    android:id="@+id/Megametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Megametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Kilometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Kilometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Hectometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Hectometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Decametres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Decametres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Metres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Metres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Decimetres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Decimetres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Centimetres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Centimetres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Millimetres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Millimetres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Micrometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Micrometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Nanometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Nanometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Picometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Picometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Femtometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Femtometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Attometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Attometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Zeptometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Zeptometres"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/Yoctometres"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Yoctometres"
+                    android:textAlignment="textEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_inch"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_yard"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_foot"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_mile"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_yottametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_zettametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_exametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_petametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_terametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_gigametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_megametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_kilometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_hectometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_decametre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_metre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_decimetre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_centimetre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_millimetre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_micrometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_nanometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_picometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_femtometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_attometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_zeptometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/et_yoctometre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

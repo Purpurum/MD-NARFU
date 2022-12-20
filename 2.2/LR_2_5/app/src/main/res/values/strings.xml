@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Мой календарь</string>
+    <string name="day_title">Событие дня</string>
+    <string name="event">Название события</string>
+    <string name="event_time">Время</string>
+    <string name="event_data">Дата</string>
+    <string name="ps">Заметки</string>
+    <string name="save">ok</string>
+    <string name="good">Ах!!!</string>
+    <string name="bad">Ох...</string>
+
+</resources>

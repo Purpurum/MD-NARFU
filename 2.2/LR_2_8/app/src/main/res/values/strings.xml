@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Прямоугольный параллелепипед</string>
+    <string name="side_a_text">a</string>
+    <string name="side_b_text">b</string>
+    <string name="side_c_text">c</string>
+</resources>

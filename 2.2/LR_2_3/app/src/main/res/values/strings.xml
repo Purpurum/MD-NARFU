@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Lab23</string>
+    <string name="main_text">Каждый Охотник Желает Знать Где Сидит Фазан</string>
+    <string name="main_textTr">Каждый Охотник Желает Знать Где Сидит Фазан</string>
+</resources>

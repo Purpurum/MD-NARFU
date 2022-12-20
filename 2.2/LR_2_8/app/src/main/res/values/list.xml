@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calculations">
+        <item>Сумма длин сторон</item>
+        <item>Длина диагонали</item>
+        <item>Площадь полной поверхности</item>
+        <item>Объём параллелепипеда</item>
+    </string-array>
+</resources>
