@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GetUSDRate</string>
+    <string name="refresh_rate">refresh</string>
+    <string name="usd_rate">Current rate:</string>
+    <string name="target_rate_empty">Target rate is empty</string>
+    <string name="current_rate_empty">Current rate is empty</string>
+    <string name="subscribe">subscribe</string>
+    <string name="target_rate">Target rate</string>
+    <string name="notification_text">Current USD rate is %s RUB</string>
+    <string name="channel_description">Channel for rate notification</string>
+</resources>

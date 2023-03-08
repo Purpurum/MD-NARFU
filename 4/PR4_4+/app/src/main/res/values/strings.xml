@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Location</string>
+    <string name="get_location_text">Узнать местоположение</string>
+    <string name="text_latitude_text">Широта:</string>
+    <string name="text_longitude_text">Долгота:</string>
+    <string name="text_accuracy_text">Точность:</string>
+    <string name="text_address_text">Адрес:</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_file_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите нужные слова через запятую:" />
+
+    <EditText
+        android:id="@+id/et_words_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_write_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить слова во внутреннем хранилище"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_write_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить слова во внешнем хранилище" />
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/v_write_internal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Введите нужные слова через запятую:"/>
+
+        <View
+            android:id="@+id/v_write_external"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Введите нужные слова через запятую:" />
+    </LinearLayout>
+    -->
+
+</LinearLayout>

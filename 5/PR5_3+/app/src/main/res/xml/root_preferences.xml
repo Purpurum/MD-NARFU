@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:title="Изменить единицы измерения"
+        android:summary="Выберите, какие единицы измерения должны использоваться в приложении"
+        android:key="change_unit_switch"
+        android:defaultValue="true" />
+
+    <DropDownPreference
+        app:dependency="change_unit_switch"
+        android:title="Давление"
+        android:key="pressure_dropdown"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:enabled="true" />
+
+</PreferenceScreen>

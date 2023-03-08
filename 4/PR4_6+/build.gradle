@@ -1,0 +1,29 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.lifecycle_version = "2.5.1"
+    ext.navigation_version = "2.5.3"
+    ext.jackson_version = "2.14.0"
+    ext.kakao_version = "3.0.6"
+    ext.koin_version= "3.2.0"
+    ext.kaspresso_version = "1.4.2"
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.14'
+    }
+}
+
+
+plugins {
+    id 'com.android.application' version '7.4.0' apply false
+    id 'com.android.library' version '7.4.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.21' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
