@@ -82,7 +82,7 @@
         android:layout_height="49dp"
         android:ems="10"
         android:hint="id"
-        android:inputType="numberDecimal"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/name"
         app:layout_constraintHorizontal_bias="0.678"
