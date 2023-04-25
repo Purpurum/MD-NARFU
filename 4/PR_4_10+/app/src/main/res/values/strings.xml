@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PR_4_10</string>
+    <string-array name="type_sensors">
+        <item name="1">Датчики окружающей среды</item>
+        <item name="2">Датчики положения</item>
+        <item name="3">Датчики состояния человека</item>
+    </string-array>
+</resources>

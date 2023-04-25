@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PR3_9</string>
+    <string name="app_name">Много задач</string>
+    <string name="start">запуск процессов</string>
+    <string name="clicker">набираем очки!</string>
 </resources>
