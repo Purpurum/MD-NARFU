@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LearningKorean</string>
+    <string name="sample_next_word">만나서 반갑습니다</string>
+    <string name="sample_word">이름이 뭐에요</string>
+</resources>
